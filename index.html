@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Konversi Biner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 Konverter Biner</h1>
+        
+        <label for="binerInput">Masukkan Bilangan Biner:</label>
+        <input type="text" id="binerInput" placeholder="Contoh: 101101">
+        
+        <button onclick="konversi()">Konversi</button>
+        
+        <div id="hasilKonversi" class="hasil">
+            <h2>Hasil:</h2>
+            <p>Desimal (Basis 10): <span id="desimal">--</span></p>
+            <p>Oktal (Basis 8): <span id="oktal">--</span></p>
+            <p>Heksadesimal (Basis 16): <span id="heksadesimal">--</span></p>
+        </div>
+
+        <p id="pesanError" class="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
